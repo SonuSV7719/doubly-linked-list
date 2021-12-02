@@ -59,7 +59,7 @@ void Linkedlist::deleteNode(int key)
 			temp1 = temp1->next;
 			
 		}
-		if (temp1==NULL)
+		if (temp1->next == NULL)
 		{
 			cout<<key<<" Not found"<<endl;
 		}
